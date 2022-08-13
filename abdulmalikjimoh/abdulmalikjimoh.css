@@ -1,0 +1,32 @@
+body{
+  text-align: center;
+  background-color: Lightblue;
+  font-family: cursive;
+  margin-left: 30px;
+  font-size: 20;
+}
+li, h2 {
+  text-align: left;
+}
+
+hr {
+  border-top: 2.5px solid White;
+}
+.boxymoxy {
+  text-align: left;
+  display: inline-block;
+  width: 350px;
+  height: 250px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  border: solid skyblue 2px;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: skyblue;
+  transition: box-shadow .1s;
+
+}
+.boxymoxy:hover {
+  box-shadow: blue 5px 5px (5 5 5 / .4) ;
+}
